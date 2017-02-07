@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d862ec-a03f-460f-934a-51c1e90d6662" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jspdf/jspdf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jspdf/libs/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jspdf/libs/sprintf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/tableExport.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BMVZ-PR-WEB-APP-4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -607,12 +602,12 @@
       <workItem from="1486372287585" duration="811000" />
       <workItem from="1486391399754" duration="18219000" />
       <workItem from="1486454507472" duration="1690000" />
-      <workItem from="1486472323375" duration="973000" />
+      <workItem from="1486472323375" duration="1130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37315000" />
+    <option name="totallyTimeSpent" value="37472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
