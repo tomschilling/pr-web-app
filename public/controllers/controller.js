@@ -102,35 +102,35 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: 'KV Berlin',
+                name: 'Berlin',
                 ticked: false
             },
             {
-                name: 'KV Brandenburg',
+                name: 'Brandenburg',
                 ticked: false
             },
             {
-                name: 'KV Bremen',
+                name: 'Bremen',
                 ticked: false
             },
             {
-                name: 'KV Hamburg',
+                name: 'Hamburg',
                 ticked: false
             },
             {
-                name: 'KV Mecklenburg-Vorpommern',
+                name: 'Mecklenburg-Vorpommern',
                 ticked: false
             },
             {
-                name: 'KV Niedersachsen',
+                name: 'Niedersachsen',
                 ticked: false
             },
             {
-                name: 'KV Sachsen-Anhalt',
+                name: 'Sachsen-Anhalt',
                 ticked: false
             },
             {
-                name: 'KV Schleswig-Holstein',
+                name: 'Schleswig-Holstein',
                 ticked: false
             },
             {
@@ -141,23 +141,23 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: 'KV Hessen',
+                name: 'Hessen',
                 ticked: false
             },
             {
-                name: 'KV Nordrhein',
+                name: 'Nordrhein',
                 ticked: false
             },
             {
-                name: 'KV Sachsen',
+                name: 'Sachsen',
                 ticked: false
             },
             {
-                name: 'KV Thüringen',
+                name: 'Thüringen',
                 ticked: false
             },
             {
-                name: 'KV Westfalen',
+                name: 'Westfalen',
                 ticked: false
             },
             {
@@ -168,19 +168,19 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: 'KV Baden-Württemberg',
+                name: 'Baden-Württemberg',
                 ticked: false
             },
             {
-                name: 'KV Bayern',
+                name: 'Bayern',
                 ticked: false
             },
             {
-                name: 'KV Rheinland-Pfalz',
+                name: 'Rheinland-Pfalz',
                 ticked: false
             },
             {
-                name: 'KV Saarland',
+                name: 'Saarland',
                 ticked: false
             },
             {
@@ -204,15 +204,43 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: '01...',
+                name: '00',
                 ticked: false
             },
             {
-                name: '02...',
+                name: '01',
                 ticked: false
             },
             {
-                name: '03...',
+                name: '02',
+                ticked: false
+            },
+            {
+                name: '03',
+                ticked: false
+            },
+            {
+                name: '04',
+                ticked: false
+            },
+            {
+                name: '05',
+                ticked: false
+            },
+            {
+                name: '06',
+                ticked: false
+            },
+            {
+                name: '07',
+                ticked: false
+            },
+            {
+                name: '08',
+                ticked: false
+            },
+            {
+                name: '09',
                 ticked: false
             },
             {
@@ -223,43 +251,43 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: '10115',
+                name: '10',
                 ticked: false
             },
             {
-                name: '10117',
+                name: '11',
                 ticked: false
             },
             {
-                name: '10178',
+                name: '12',
                 ticked: false
             },
             {
-                name: '10179',
+                name: '13',
                 ticked: false
             },
             {
-                name: '10243',
+                name: '14',
                 ticked: false
             },
             {
-                name: '10245',
+                name: '15',
                 ticked: false
             },
             {
-                name: '10247',
+                name: '16',
                 ticked: false
             },
             {
-                name: '10247',
+                name: '17',
                 ticked: false
             },
             {
-                name: '10623',
+                name: '18',
                 ticked: false
             },
             {
-                name: '10245',
+                name: '19',
                 ticked: false
             },
             {
@@ -270,11 +298,43 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: '20...',
+                name: '20',
                 ticked: false
             },
             {
-                name: '21...',
+                name: '21',
+                ticked: false
+            },
+            {
+                name: '22',
+                ticked: false
+            },
+            {
+                name: '23',
+                ticked: false
+            },
+            {
+                name: '24',
+                ticked: false
+            },
+            {
+                name: '25',
+                ticked: false
+            },
+            {
+                name: '26',
+                ticked: false
+            },
+            {
+                name: '27',
+                ticked: false
+            },
+            {
+                name: '28',
+                ticked: false
+            },
+            {
+                name: '29',
                 ticked: false
             },
             {
@@ -285,12 +345,329 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: '30...',
+                name: '30',
                 ticked: false
             },
             {
-                name: '31...',
+                name: '31',
                 ticked: false
+            },
+            {
+                name: '32',
+                ticked: false
+            },
+            {
+                name: '33',
+                ticked: false
+            },
+            {
+                name: '34',
+                ticked: false
+            },
+            {
+                name: '35',
+                ticked: false
+            },
+            {
+                name: '36',
+                ticked: false
+            },
+            {
+                name: '37',
+                ticked: false
+            },
+            {
+                name: '38',
+                ticked: false
+            },
+            {
+                name: '39',
+                ticked: false
+            },
+            {
+                msGroup: false
+            },
+            {
+                name: '<strong>4</strong>',
+                msGroup: true
+            },
+            {
+                name: '40',
+                ticked: false
+            },
+            {
+                name: '41',
+                ticked: false
+            },
+            {
+                name: '42',
+                ticked: false
+            },
+            {
+                name: '43',
+                ticked: false
+            },
+            {
+                name: '44',
+                ticked: false
+            },
+            {
+                name: '45',
+                ticked: false
+            },
+            {
+                name: '46',
+                ticked: false
+            },
+            {
+                name: '47',
+                ticked: false
+            },
+            {
+                name: '48',
+                ticked: false
+            },
+            {
+                name: '49',
+                ticked: false
+            },
+            {
+                msGroup: false
+            },
+            {
+                name: '<strong>5</strong>',
+                msGroup: true
+            },
+            {
+                name: '50',
+                ticked: false
+            },
+            {
+                name: '51',
+                ticked: false
+            },
+            {
+                name: '52',
+                ticked: false
+            },
+            {
+                name: '53',
+                ticked: false
+            },
+            {
+                name: '54',
+                ticked: false
+            },
+            {
+                name: '55',
+                ticked: false
+            },
+            {
+                name: '56',
+                ticked: false
+            },
+            {
+                name: '57',
+                ticked: false
+            },
+            {
+                name: '58',
+                ticked: false
+            },
+            {
+                name: '59',
+                ticked: false
+            },
+            {
+                msGroup: false
+            },
+            {
+                name: '<strong>6</strong>',
+                msGroup: true
+            },
+            {
+                name: '60',
+                ticked: false
+            },
+            {
+                name: '61',
+                ticked: false
+            },
+            {
+                name: '62',
+                ticked: false
+            },
+            {
+                name: '63',
+                ticked: false
+            },
+            {
+                name: '64',
+                ticked: false
+            },
+            {
+                name: '65',
+                ticked: false
+            },
+            {
+                name: '66',
+                ticked: false
+            },
+            {
+                name: '67',
+                ticked: false
+            },
+            {
+                name: '68',
+                ticked: false
+            },
+            {
+                name: '69',
+                ticked: false
+            },
+            {
+                msGroup: false
+            },
+            {
+                name: '<strong>7</strong>',
+                msGroup: true
+            },
+            {
+                name: '70',
+                ticked: false
+            },
+            {
+                name: '71',
+                ticked: false
+            },
+            {
+                name: '72',
+                ticked: false
+            },
+            {
+                name: '73',
+                ticked: false
+            },
+            {
+                name: '74',
+                ticked: false
+            },
+            {
+                name: '75',
+                ticked: false
+            },
+            {
+                name: '76',
+                ticked: false
+            },
+            {
+                name: '77',
+                ticked: false
+            },
+            {
+                name: '78',
+                ticked: false
+            },
+            {
+                name: '79',
+                ticked: false
+            },
+            {
+                msGroup: false
+            },
+            {
+                name: '<strong>8</strong>',
+                msGroup: true
+            },
+            {
+                name: '80',
+                ticked: false
+            },
+            {
+                name: '81',
+                ticked: false
+            },
+            {
+                name: '82',
+                ticked: false
+            },
+            {
+                name: '83',
+                ticked: false
+            },
+            {
+                name: '84',
+                ticked: false
+            },
+            {
+                name: '85',
+                ticked: false
+            },
+            {
+                name: '86',
+                ticked: false
+            },
+            {
+                name: '87',
+                ticked: false
+            },
+            {
+                name: '88',
+                ticked: false
+            },
+            {
+                name: '89',
+                ticked: false
+            },
+            {
+                msGroup: false
+            },
+            {
+                name: '<strong>9</strong>',
+                msGroup: true
+            },
+            {
+                name: '90',
+                ticked: false
+            },
+            {
+                name: '91',
+                ticked: false
+            },
+            {
+                name: '92',
+                ticked: false
+            },
+            {
+                name: '93',
+                ticked: false
+            },
+            {
+                name: '94',
+                ticked: false
+            },
+            {
+                name: '95',
+                ticked: false
+            },
+            {
+                name: '96',
+                ticked: false
+            },
+            {
+                name: '97',
+                ticked: false
+            },
+            {
+                name: '98',
+                ticked: false
+            },
+            {
+                name: '99',
+                ticked: false
+            },
+            {
+                msGroup: false
             },
             {
                 msGroup: false
@@ -309,28 +686,18 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: true
             },
             {
-                name: '<strong>Gruppe 1</strong>',
+                name: '<strong>Häufig verwendet</strong>',
                 msGroup: true
             },
             {       name: "Hausarzt",                  ticked: false  },
-            {       name: "Innere Medizin",                  ticked: false },
+            {       name: "Internist ohne SP",                  ticked: false },
             {
                 msGroup: false
             },
             {
-                name: '<strong>Gruppe 2</strong>',
+                name: '<strong>Internist mit SP</strong>',
                 msGroup: true
             },
-            {       name: "Endokronologie",                   ticked: false },
-            {       name: "Gastroenterologie",              ticked: false },
-            {       name: "Hämatologie/Onkologie",          ticked: false  },
-            {       name: "Infektiologie",                  ticked: false  },
-            {       name: "Kardiologie",                  ticked: false },
-            {       name: "Nephrologie",                   ticked: false },
-            {       name: "Pulmologie",              ticked: false },
-            {       name: "Rheumatologie",          ticked: false  },
-            {       name: "Hausarzt",                  ticked: false  },
-            {       name: "Innere Medizin",                  ticked: false },
             {       name: "Endokronologie",                   ticked: false },
             {       name: "Gastroenterologie",              ticked: false },
             {       name: "Hämatologie/Onkologie",          ticked: false  },
@@ -343,7 +710,7 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
                 msGroup: false
             },
             {
-                name: '<strong>Gruppe 3</strong>',
+                name: '<strong>Fachgruppen</strong>',
                 msGroup: true
             },
             {       name: "Anästhesiologie",                   ticked: false },
@@ -384,9 +751,11 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
 
         // Mutltiselect Ausrichtung
         $scope.Ausrichtung = [
-            {       name: "Grundversorger",          ticked: false  },
             {       name: "Fachgleich",               ticked: false },
-            {       name: "Spezial",                        ticked: false }
+            {       name: "Fachversorger",               ticked: false },
+            {       name: "Grundversorger",          ticked: false  },
+            {       name: "Spezial",                        ticked: false },
+            {       name: "Vollversorger",               ticked: false },
         ];
 
        
@@ -422,7 +791,7 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
             parameters['institutionPLZ'] = parameters['institutionPLZ'] || [];
             angular.forEach( $scope.outputPLZ, function( value, key ) {
                 if (value.ticked) {
-                    parameters['institutionPLZ'].push(value.name);
+                    parameters['institutionPLZ'].push(value.name+'%');
                 }
             });
 
@@ -477,6 +846,40 @@ angular.module("InstitutionCRUDApp", ['ngRoute', 'isteven-multi-select'])
 
 
 
+        };
+
+
+        $scope.isEditing = false;
+
+
+        $scope.onEditClick = function(institution) {
+
+
+            $scope.isEditing = true;
+
+            console.log(institution.institutionIdPk);
+
+            $scope.isEditing = $scope.institutionlist.indexOf(institution);
+
+            institution.updatedInstitutionName = institution.InstitutionName;
+            institution.updatedInstitutionEmail = institution.InstitutionEmail;
+            institution.updatedInstitutionNumber = institution.InstitutionNumber;
+        };
+
+
+
+
+        $scope.onCancelClick = function() {
+            $scope.isEditing = false;
+        };
+
+
+        $scope.onSaveClick = function(institution) {
+            institution.InstitutionName = institution.updatedInstitutionName;
+            institution.InstitutionEmail = institution.updatedInstitutionEmail;
+            institution.InstitutionNumber = institution.updatedInstitutionNumber;
+            $scope.isEditing = false;
+            Institutionlist.updateInstitution(institution);
         };
         
     })

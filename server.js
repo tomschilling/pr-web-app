@@ -14,7 +14,7 @@ var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'bmvzDB'
+    database: 'prDB'
 });
 
 
@@ -61,12 +61,12 @@ app.get('/institutionlist', function (req, res) {
             if (data.constructor === Array) {
                 var temp = [];
                 data.forEach(function(d) {
-                    temp.push(key + '=' + "'" + d + "'");
+                    temp.push(key + ' LIKE ' + "'" + d + "'");
                 });
                 conditions.push('(' + temp.join(' OR ') + ')');
                 continue;
             }
-            conditions.push(key + '=' + "'" + data + "'");
+            conditions.push(key + ' LIKE ' + "'" + data + "'");
         }
     }
 

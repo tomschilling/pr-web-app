@@ -9,6 +9,7 @@
              button-label="icon name"
              item-label="icon name maker"
              tick-property="ticked"
+             orientation="horizontal"
              group-property="msGroup"
 
         >
@@ -26,6 +27,7 @@
                     button-label="icon name"
                     item-label="icon name maker"
                     tick-property="ticked"
+                    orientation="horizontal"
                     group-property="msGroup"
             >
             </div>
@@ -95,19 +97,20 @@
         &nbsp;
         <a  ng-click="onSendEmailClick()" align="left" class="btn btn-default"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Send Email</a>
         &nbsp; || &nbsp;
-        <a  onclick="$('#All').tableExport({type:'csv',escape:'false', separator: ';', ignoreColumn: [0,3,4,5,7,8]});"  align="left" class="btn btn-default"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Export CSV</a>
+        <a  onclick="$('#All').tableExport({type:'csv',escape:'false', separator: ';', ignoreColumn: [0,1,2,3,4,5,6,8,9,10]});"  align="left" class="btn btn-default"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> Export CSV</a>
 
         <div><hr></div>
 
           <tr><th><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></th>
               <th>KV Region</th>
+              <th></th>
               <th>Name</th>
               <th>Straße</th>
               <th>PLZ</th>
               <th>Ort</th>
               <th>Email</th>
               <th>Ansprechpartner</th>
-             <!-- <th>Website</th> -->
+              <th>FG</th>
               <th>
                       <input class="form-control" width="auto" type="search" placeholder="Suche" ng-model="searchText">
               </th>
@@ -132,6 +135,14 @@
                              ng-value="institution.institutionKvRegion"
                              ng-model="institution.updatedInstitutionKvRegion" />
                   </form>
+
+              </td>
+
+              <td>
+
+                       <span ng-if="!isEditing"
+                             class="institution__Website"><a href="{{institution.institutionWebsite}}" target="_blank"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                      </a></span>
 
               </td>
 
@@ -212,28 +223,19 @@
                   </form>
               </td>
 
-            <!--  <td>
-
-                       <span ng-if="!isEditing"
-                                 class="institution__Website"><a href="{{institution.institutionWebsite}}" target="_blank">{{institution.institutionWebsite}}
-                      </a></span>
-
-                  <form ng-submit="updateWebsite(institution)">
-                      <input ng-if="isEditing"
-                             class="form-control institution_update-input-Website"
-                             ng-value="institution.institutionWebsite"
-                             ng-model="institution.updatedinstitutionWebsite" />
-                  </form>
-
-              </td>  -->
+              <td>00</td>
 
               <td align="right">
+
+                  <button ng-if="!isEditing"
+                          class="btn btn-info"
+                          ng-click="onEditClick(institution)">Update
+                  </button>
+
+
               <a class="btn btn-warning" ng-href="#/institution/{{institution.institutionIdPk}}">View</a>
 
-                <!--  <button ng-if="!isEditing"
-                          class="btn btn-info"
-                          ng-click="onEditClick(institution)">Edit
-                  </button>
+
 
                   <button ng-if="isEditing"
                           class="btn btn-primary"
@@ -243,7 +245,7 @@
                   <button ng-if="isEditing"
                           class="btn btn-default"
                           ng-click="onCancelClick(institution)">Cancel
-                  </button> -->
+                  </button>
               </td>
 
           </tr>
